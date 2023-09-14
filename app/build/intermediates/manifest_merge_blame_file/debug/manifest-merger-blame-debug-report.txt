@@ -1,0 +1,293 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.meerim.akchamanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:26:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.meerim.akchamanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.meerim.akchamanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:5:5-58:19
+21        android:allowBackup="true"
+21-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@drawable/img_1"
+27-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:9:9-39
+28        android:label="@string/app_name"
+28-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:10:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:12:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.AkchaManager" >
+32-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:13:9-50
+33        <activity
+33-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:15:9-18:62
+34            android:name="com.meerim.akchamanager.activities.ArticleActivity"
+34-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:16:13-55
+35            android:exported="false"
+35-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:17:13-37
+36            android:label="@string/title_activity_article" />
+36-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:18:13-59
+37        <activity
+37-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:19:9-21:40
+38            android:name="com.meerim.akchamanager.activities.ReportsActivity"
+38-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:20:13-55
+39            android:exported="false" />
+39-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:21:13-37
+40        <activity
+40-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:22:9-24:40
+41            android:name="com.meerim.akchamanager.activities.GoalsActivity"
+41-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:23:13-53
+42            android:exported="false" />
+42-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:24:13-37
+43        <activity
+43-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:25:9-27:40
+44            android:name="com.meerim.akchamanager.activities.BudgetActivity"
+44-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:26:13-54
+45            android:exported="false" />
+45-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:27:13-37
+46        <activity
+46-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:28:9-30:40
+47            android:name="com.meerim.akchamanager.activities.ArticleListActivity"
+47-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:29:13-59
+48            android:exported="false" />
+48-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:30:13-37
+49        <activity
+49-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:31:9-33:40
+50            android:name="com.meerim.akchamanager.activities.ActivityAdd"
+50-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:32:13-51
+51            android:exported="false" />
+51-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:33:13-37
+52        <activity
+52-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:34:9-36:40
+53            android:name="com.meerim.akchamanager.activities.IncomeActivity"
+53-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:35:13-54
+54            android:exported="false" />
+54-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:36:13-37
+55        <activity
+55-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:37:9-39:40
+56            android:name="com.meerim.akchamanager.activities.ExpenseActivity"
+56-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:38:13-55
+57            android:exported="false" />
+57-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:39:13-37
+58        <activity
+58-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:40:9-42:40
+59            android:name="com.meerim.akchamanager.activities.SignupActivity"
+59-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:41:13-54
+60            android:exported="false" />
+60-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:42:13-37
+61        <activity
+61-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:43:9-45:40
+62            android:name="com.meerim.akchamanager.activities.LoginActivity"
+62-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:44:13-53
+63            android:exported="false" />
+63-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:45:13-37
+64        <activity
+64-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:46:9-48:40
+65            android:name="com.meerim.akchamanager.activities.HomeActivity"
+65-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:47:13-52
+66            android:exported="false" />
+66-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:48:13-37
+67        <activity
+67-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:49:9-57:20
+68            android:name="com.meerim.akchamanager.activities.SplashActivity"
+68-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:50:13-54
+69            android:exported="true" >
+69-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:51:13-36
+70            <intent-filter>
+70-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:52:13-56:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:53:17-69
+71-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:53:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:55:17-77
+73-->C:\Users\amina\AkchaManager\app\src\main\AndroidManifest.xml:55:27-74
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+77            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+77-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+81-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+82            <intent-filter>
+82-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+83-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+85-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+86-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+87
+88                <data
+88-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+89                    android:host="firebase.auth"
+89-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+90                    android:path="/"
+90-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+91                    android:scheme="genericidp" />
+91-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+95            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+95-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+96            android:excludeFromRecents="true"
+96-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+97            android:exported="true"
+97-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+98            android:launchMode="singleTask"
+98-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+99-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+100            <intent-filter>
+100-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+101                <action android:name="android.intent.action.VIEW" />
+101-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+101-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+103-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+104                <category android:name="android.intent.category.BROWSABLE" />
+104-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+104-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+105
+106                <data
+106-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+107                    android:host="firebase.auth"
+107-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+108                    android:path="/"
+108-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+109                    android:scheme="recaptcha" />
+109-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+110            </intent-filter>
+111        </activity>
+112
+113        <service
+113-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
+114            android:name="com.google.firebase.components.ComponentDiscoveryService"
+114-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:67:13-84
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.3.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\d9eeced8f4c4901858e28789a046d837\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:68:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+118                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+118-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-database:20.2.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\28a94b37ecb4b8aabdef21b9f2c4abd1\transformed\firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+121                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+121-->[com.google.firebase:firebase-database:20.2.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\28a94b37ecb4b8aabdef21b9f2c4abd1\transformed\firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-database:20.2.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\28a94b37ecb4b8aabdef21b9f2c4abd1\transformed\firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+123        </service>
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:20.3.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\d9eeced8f4c4901858e28789a046d837\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:20.3.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\d9eeced8f4c4901858e28789a046d837\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+127            android:authorities="com.meerim.akchamanager.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:20.3.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\d9eeced8f4c4901858e28789a046d837\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+128            android:directBootAware="true"
+128-->[com.google.firebase:firebase-common:20.3.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\d9eeced8f4c4901858e28789a046d837\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+129            android:exported="false"
+129-->[com.google.firebase:firebase-common:20.3.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\d9eeced8f4c4901858e28789a046d837\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+130            android:initOrder="100" />
+130-->[com.google.firebase:firebase-common:20.3.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\d9eeced8f4c4901858e28789a046d837\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+131
+132        <activity
+132-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\c573c5595d70583fcc4feae25b121292\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\c573c5595d70583fcc4feae25b121292\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\c573c5595d70583fcc4feae25b121292\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\c573c5595d70583fcc4feae25b121292\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+140
+141        <provider
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+142            android:name="androidx.startup.InitializationProvider"
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+143            android:authorities="com.meerim.akchamanager.androidx-startup"
+143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+144            android:exported="false" >
+144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+145            <meta-data
+145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+146                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+147                android:value="androidx.startup" />
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+148            <meta-data
+148-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+149                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+149-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+150                android:value="androidx.startup" />
+150-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+151        </provider>
+152
+153        <service
+153-->[androidx.room:room-runtime:2.5.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\07304edceb7e29dfdd1d22aa082ff2d0\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+154            android:name="androidx.room.MultiInstanceInvalidationService"
+154-->[androidx.room:room-runtime:2.5.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\07304edceb7e29dfdd1d22aa082ff2d0\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+155            android:directBootAware="true"
+155-->[androidx.room:room-runtime:2.5.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\07304edceb7e29dfdd1d22aa082ff2d0\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+156            android:exported="false" />
+156-->[androidx.room:room-runtime:2.5.2] C:\Users\amina\Personal Finance Manager\My-Money\caches\transforms-3\07304edceb7e29dfdd1d22aa082ff2d0\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+157    </application>
+158
+159</manifest>
