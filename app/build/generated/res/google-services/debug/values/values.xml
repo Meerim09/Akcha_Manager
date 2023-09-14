@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">361711846826-6eat3vur4m8kk7v0os5g1pbkqa3gp7mq.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">361711846826</string>
+    <string name="google_api_key" translatable="false">AIzaSyBUwp7R5pD4upbLOpRTOyYy-SeiELFyyE4</string>
+    <string name="google_app_id" translatable="false">1:361711846826:android:bd6901e3fab871813e17d3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBUwp7R5pD4upbLOpRTOyYy-SeiELFyyE4</string>
+    <string name="google_storage_bucket" translatable="false">meerim-8c04e.appspot.com</string>
+    <string name="project_id" translatable="false">meerim-8c04e</string>
+</resources>
