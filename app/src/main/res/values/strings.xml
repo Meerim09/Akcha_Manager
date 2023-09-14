@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Akcha Manager</string>
+    <string name="budget_manager">Akcha Manager</string>
+
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Bag</string>
+    <string name="title_notifications">Wishlist</string>
+    <string name="select_size">Select size</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="proceed_to_checkout">Proceed to checkout</string>
+    <string name="_0_gbp">0 GBP</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="pearl_bag">Pearl Bag</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="welcome_back">Кош келдиңиз!</string>
+    <string name="sign_in">Кирүү</string>
+    <string name="email">Электрондук почта</string>
+    <string name="password">Сыр сөз</string>
+    <string name="password_must_be_at_least_8_characters">Пароль 8 символдон кем эмес болуу керек</string>
+    <string name="enter_your_details_and_start_nshopping">Өз маалыматтарыңызды киргизиңиз!</string>
+    <string name="sign_up">Катталуу</string>
+    <string name="full_name">Толук аты-жөнү</string>
+    <string name="wishlist">WishList</string>
+    <string name="search">Search</string>
+    <string name="title_activity_expense">ExpenseActivity</string>
+    <string name="prompt_email">Электрондук почта</string>
+    <string name="prompt_password">Сыр сөз</string>
+    <string name="action_sign_in">Кирүү же Катталуу</string>
+    <string name="action_sign_in_short">Кирүү</string>
+    <string name="welcome">"Кош келдиңиз!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="financial_goals">Максат</string>
+    <string name="reports">Отчет</string>
+    <string name="articles">Макала</string>
+    <string name="title_activity_article">ArticleActivity</string>
+</resources>
